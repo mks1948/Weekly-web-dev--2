@@ -1,0 +1,299 @@
+body {
+    padding-top: 70px;
+  }
+
+
+.home{
+	background-image: url("E:/GitHub/wwd2/img/home-bg.jpg") ;
+ 	background-size: cover;
+	background-position: center; 
+	height: 100vh;
+	 
+}
+.home__info-text{
+	padding:10px;
+	margin-top:230px;
+	margin-left: 100px;
+}
+h2.home-title
+{
+	font-size: 80px;
+	font-weight: 600;
+	width: 500px;
+}
+.navbar-nav
+{
+	padding:10px;
+
+}
+ul.nav {
+	align-items: center;
+}
+
+.home-title
+{
+	
+	font-size: 50px;
+}
+.about
+{
+	 background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.9) 0%, rgba(0, 183, 183, 0.9) 32%, rgba(0, 173, 173, 0.9) 68%, rgba(0, 156, 156, 0.9) 100%);
+ 	 padding: 70px 15px; }
+}
+.about__img .about{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pizda
+{
+	margin-top: 100px;
+	font-size: 18px;
+	 color: #ffffff;
+}
+
+
+
+.services
+{
+ background-color: #00BFFF;
+
+}
+.button__left {
+	overflow: hidden;
+	display:flex;
+	flex-direction: column;
+	text-align:center;
+	position:relative;
+}
+.services__table{
+	display: flex;
+	flex-direction: row;
+}
+.form_services{
+	padding:40px;
+}
+.button__left--side{
+	padding-top:100px;
+	
+	
+}
+
+
+
+
+
+
+
+.button_services--online  {
+	font-size: 20px;
+	padding:20px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+
+	background-color: white;
+
+}
+
+.button_services--quality{
+	font-size: 20px;
+    padding:20px;
+	border-radius: 4px; 
+	margin:15px 0px; 		
+
+	background-color: white;
+
+}
+.button_services--Domestic{
+	font-size:20px;
+	padding:20px;
+	border-radius: 4px;
+	margin:15px 0px; 
+
+	background-color: white;
+
+}
+.button_services--well{
+	font-size: 20px;
+	padding:20px;
+	border-radius: 4px;
+	margin:15px 0px; 
+
+	background-color: white;
+
+}
+.table__right--label{
+	position:relative;
+	bottom:300px;
+	color: white;
+	font-size: 80px;
+	font-weight: 700;
+
+}
+.services__img{
+	position:relative;
+	top:70px;
+
+}	
+
+
+.gallery{
+	background-color: #ffe92f;
+	text-align: center;
+	padding:100px;
+}
+.row__gallery--label{
+	font-size: 7em;
+	font-weight: 700;
+	font-family: "Raleway";
+}
+.row_gallery-txt{
+	font-size: 1.30em;
+	padding-bottom: 50px;
+}
+
+.image{
+	width: 100%;
+    margin: 15px 0;
+    box-shadow: 2px;
+	-webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.image:hover{
+-transition: all 0.6s;
+-moz-transition: all 0.6s;
+-webkit-transition: all 0.6s;
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+}
+.btn__gallery--info{
+	background-color: #5585a2;
+	color:white;
+	margin-top:20px;
+	padding:20px;
+	box-shadow:  1px;}
+
+}
+
+.subscribe__img{
+	max-width: 100vh;
+	position:absolute;
+}
+.subscribe__left--label{
+	position:relative;
+	bottom:400px;
+}
+
+.subscribe__title{
+
+	padding-top:50px;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.btn__subscribe--email--1{
+	width: 70%;
+}
+.blog{
+	background-color: #b07cf7;
+}
+.blog__title{
+	font-size: 7em;
+	color:white;
+	text-align: center;
+	position: relative;
+	bottom:150px;
+}
+.blog__title--article p{
+	font-size: 1.25em;
+	text-align: center;
+	position: relative;
+	bottom:110px;
+
+}
+.blog__gallery{
+	position:relative;
+	bottom:35px;
+}
+
+.btn__blog--submit{
+	position: relative;
+	bottom:20px;
+	width:200px;
+	background-color: red;
+	color:white;
+	margin-top:20px;
+	padding:15px 50px;
+	box-shadow:  1px;
+
+	}
+
+.contact{
+	background-image: url("E:/GitHub/wwd2/img/contact.png") ;
+ 	background-size: cover;
+	background-position: center; 
+
+}
+.contact__title{
+	font-size: 7em;
+	text-align: center;
+}
+.contact__main p{
+	font-size: 1em;
+	text-align: center;
+}
+.contact__column--left--form{
+
+	display:flex;
+	flex-direction: column;
+
+}
+.contact__column--left--form{
+	position: relative;
+	top:45px;
+
+}
+.btn__contact--name {
+	font-size:14px;
+	padding:10px;
+	outline:0;
+	border: 0;
+	margin:15px 0px; 
+	background-color: #78dad9;
+}
+.btn__contact--email {
+	font-size:14px;
+	padding:10px;
+	outline:0;
+	border: 0;
+	margin:15px 0px; 
+
+	background-color: #78dad9;
+}
+.btn__contact--phone {
+	font-size:14px;
+	padding:10px;
+	outline:0;
+	border: 0;
+	margin:15px 0px; 
+
+	background-color: #78dad9;
+}
+.btn__contact--message{
+	height: 200px;
+	font-size:14px;
+	padding:10px;
+	outline:0;
+	border: 0;
+	margin:15px 0px; 
+
+
+	background-color: #78dad9;
+}
+.contact__info{
+	position: relative;
+	bottom:380px;
+
+}
